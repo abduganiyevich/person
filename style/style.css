@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: lightgray;
+}
+form{
+    margin-bottom: 20px;
+}
+.block{
+    width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px gray;
+    margin-top: 100px;
+}
+input{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+input[type='button']{
+    width: 60px;
+    padding: 5px;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+td span{
+    color: red;
+    cursor: pointer;
+}
